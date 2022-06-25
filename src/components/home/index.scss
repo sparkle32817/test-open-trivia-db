@@ -1,0 +1,44 @@
+.home {
+  &>.title {
+    font-size  : 32px;
+    font-weight: 400;
+    line-height: 1.1;
+    padding    : 10px 0;
+  }
+
+  &>.table-container {
+    &>table {
+      width          : 100%;
+      border         : 1px solid #464545;
+      border-collapse: collapse;
+      border-spacing : 0;
+
+      tr:first-child th:first-child {
+        border-top-left-radius: 3px;
+      }
+
+      th,
+      td {
+        border        : 1px solid #464545;
+        border-top    : 0;
+        vertical-align: bottom;
+        padding       : 8px;
+        line-height   : 1.4;
+        vertical-align: top;
+      }
+
+      th {
+        background: #2c2c2c;
+      }
+
+      td {
+        background: #1b1b1b;
+      }
+    }
+
+    &>.pagination {
+      display        : flex;
+      justify-content: center;
+    }
+  }
+}

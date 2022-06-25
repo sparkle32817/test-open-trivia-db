@@ -1,0 +1,10 @@
+.test-app-content {
+  display         : flex;
+  justify-content : center;
+  background-color: #383e4e;
+  color           : white;
+
+  &>.container {
+    width: 1170px;
+  }
+}
